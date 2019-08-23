@@ -1,0 +1,89 @@
+/**
+ * Float Layout Activity
+ **/
+
+/*box-sizing*/
+/*The box-sizing CSS property sets how the total width and height of an element is calculated.*/
+/*border-box tells the browser to account for any border and padding in the values you specify for an element's width and height. */
+/*If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. This typically makes it much easier to size elements.*/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+body{
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size:24px;
+}
+
+.header{
+    height: 110px;
+    padding: 40px;
+    margin-bottom: 20px;
+    background:#ebebeb;
+}
+
+#navbar {
+  height: 110px;
+  width: 100%;
+  padding: 40px;
+  margin-bottom: 40px;
+  background: #ebebeb;
+}
+#section {
+  width: 55%;
+  margin-right:3%;
+  padding-top: 40px;
+  background: #ebebeb;
+}
+.article {
+  height:60%;
+  width:90%;
+  margin:0 auto;
+  margin-top: 25px;
+  padding-top: 10px;
+  color:#ebebeb;
+  background:#777;
+
+}
+.htag{
+  text-align: center;
+  margin: 0 auto;
+  margin-top:13px;
+  margin-bottom: 10px;
+  height: 30%;
+  width: 90%;
+  padding-top: 10px;
+  color: #777;
+  background:#ebebeb;
+}
+.p{
+  text-align: center;
+  margin: 0 auto;
+  height: 30%;
+  width: 90%;
+  padding-top:7px;
+  color: #777;
+  background:#ebebeb;
+}
+
+aside {
+  padding-top: 10px;
+  background: #ebebeb;
+  width: 42%;
+}
+
+.inrow{
+  float:left;
+  margin-bottom: 40px;
+  height: 300px;
+}
+
+footer {
+  clear: both;
+  height:110px;
+  width: 100%;
+  padding: 40px;
+  background:#ebebeb;
+}
